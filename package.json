@@ -1,0 +1,23 @@
+{
+  "name": "excelresolver",
+  "version": "1.0.0",
+  "description": "A nodejs module for parsing excel files (xlsx, csv, xlsm, ...etc) into JavaScript Object (JSON), using promises",
+  "main": "src/index.js",
+  "dependencies": {
+    "read-excel-file": "^4.0.3",
+    "sheet2json": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChoqueCastroLD/excelresolver.git"
+  },
+  "keywords": [],
+  "author": "ChoqueCastroLD",
+  "license": "GNU V3",
+  "bugs": {
+    "url": "https://github.com/ChoqueCastroLD/excelresolver/issues"
+  },
+  "homepage": "https://github.com/ChoqueCastroLD/excelresolver#readme"
+}
