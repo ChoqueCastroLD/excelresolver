@@ -24,7 +24,7 @@ Promise.properRace = function (...promises) {
 
     return Promise.race(indexPromises).catch(index => {
         let p = promises.splice(index, 1)[0];
-        p.catch(e => console.log('A car has crashed, don\'t interrupt the race:', e));
+        p.catch(e => {});
         return Promise.properRace(promises);
     });
 };
